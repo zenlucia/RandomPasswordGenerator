@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap');
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1C1C1C;
+    font-family: Karla, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    background-color:#1F2937 ;
+    align-items: center;
+    padding: 100px 100px;
+    margin:80px 80px 80px 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.white {
+    color: white;
+    line-height: 10px;
+}
+
+h2.aqua {
+    color: #10B981;
+    line-height: 10px;
+}
+
+h4 {
+    color: #D5D4D8;
+}
+
+button {
+    background-color: #10B981;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#password1,#password2 {
+    background-color: #273549;
+    width: 150px;
+    height: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #10B981;
+    text-align: center;
+}
